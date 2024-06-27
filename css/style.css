@@ -1,0 +1,187 @@
+
+body {
+    /*text-align: center;*/
+    /*font-family: "Open Sans", sans-serif;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #505050;
+}
+
+a {
+    transition: all 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.border_bottom {
+    border-bottom: solid 1px lightgray;
+}
+
+.header {
+    padding: 13px 0 20px;
+    text-align: center;
+}
+
+.header_img {
+    width: 10%;
+    display: inline-block;
+}
+
+.header_title {
+    padding-top: 15px;
+    color: red;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+.menu_item {
+    padding-right: 5px;
+}
+
+.menu_link{
+    color: darkslateblue;
+}
+
+.menu_link--home, .menu_link--about {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu_link--product{
+    color: darkslateblue;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.products{
+    text-align: center;
+}
+
+.products_list {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    justify-items: center;
+}
+
+.products_link {
+    text-decoration: none;
+}
+
+.products_link img{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.products_label {
+    font-weight: bold;
+    color: black;
+}
+
+.footer{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*About page*/
+
+.menu_about {
+    color: darkslateblue;
+    font-weight: normal;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.about_title{
+    text-align: left;
+    padding: 0 20px 0 10px;
+}
+
+.about_container{
+    padding: 0 10px;
+}
+
+.about_container p:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+.about_phone{
+    width: 20%;
+}
+
+.message_title{
+    padding: 25px 0 20px;
+}
+
+.message_form{
+    margin: 0 40%;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    width: 100%;
+}
+
+.message_first{
+    display: flex;
+    flex-direction: column;
+}
+
+.message_second{
+    display: flex;
+    flex-direction: row;
+}
+
+.message_input{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#email{
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+
+.message_input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.message_container{
+    padding-left: 14px;
+
+}
+
+.message_buttons{
+    margin: 0 15%;
+}
+
+.message_btn{
+    padding: 2px 10px;
+    border: solid 1px darkgray;;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product_price, .product_title{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.product_desc{
+    padding: 40px 15px;
+    text-align: center ;
+}
